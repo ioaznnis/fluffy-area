@@ -1,7 +1,7 @@
 ﻿using System;
 using DemoLibrary.Exception;
 
-namespace DemoLibrary
+namespace DemoLibrary.TriangleOverFactory
 {
     /// <summary>
     /// Треугольник
@@ -37,9 +37,9 @@ namespace DemoLibrary
                 throw new NegativeLengthException();
             }
 
-            if (Math.Abs(a) < Calculator.Tolerance ||
-                Math.Abs(b) < Calculator.Tolerance ||
-                Math.Abs(c) < Calculator.Tolerance)
+            if (Math.Abs(a) < Constants.Tolerance ||
+                Math.Abs(b) < Constants.Tolerance ||
+                Math.Abs(c) < Constants.Tolerance)
             {
                 throw new ZeroLengthException();
             }

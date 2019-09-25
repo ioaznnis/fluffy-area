@@ -20,7 +20,7 @@ namespace DemoLibrary
                 throw new NegativeLengthException();
             }
 
-            if (Math.Abs(radius) < Calculator.Tolerance)
+            if (Math.Abs(radius) < Constants.Tolerance)
             {
                 throw new ZeroLengthException();
             }

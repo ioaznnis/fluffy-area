@@ -1,4 +1,4 @@
-﻿namespace DemoLibrary
+﻿namespace DemoLibrary.TriangleOverFactory
 {
     /// <summary>
     /// Прямоугольный треугольник. Стороны <see cref="TriAngle.A"/> и <see cref="TriAngle.B"/> - катеты, <see cref="TriAngle.C"/> - гипотенуза
